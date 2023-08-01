@@ -1,0 +1,51 @@
+body {
+    background: #1B244A;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.score-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    height: 180px;
+    color:#EEE;
+}
+.margin{
+    margin-right: 15px;
+}
+.title{
+    font-size:40px;
+    font-family: "Verdana";
+    font-weight: 700;
+    margin: 0;
+}
+
+.scores {
+    font-family: "scoreboard";
+    font-size: 70px;
+    color: brown;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+}
+
+ button {
+     
+     font-family: "scoreboard";
+     font-weight: bolder;
+     color: #9AABD8;
+     background: #1B244A;
+     border: 1px solid #9AABD8;
+     border-radius: 5px;
+     text-align: center;
+     padding: 5px 10px; 
+ }
+ 
+ @font-face {
+   font-family: "scoreboard";
+   src: url(scoreboardfont.ttf);
+}
